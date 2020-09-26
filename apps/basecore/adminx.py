@@ -18,8 +18,8 @@ class JjYyqkbAdmin(object):
 
 class BasCustInforAdmin(object):
     list_display = ['cid', 'xm', 'xb', 'csrq', 'sfzhm']
-    list_filter = ['xm']
-    search_fields = ['xm']
+    list_filter = ['xm', 'xb']
+    search_fields = ['xm', 'xb']
     # search_fields = ['xm']
     # list_filter = ['course', 'name', 'add_time', 'download']
     # search_fields = ['course', 'name', 'download']
